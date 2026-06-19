@@ -220,7 +220,7 @@ const BRANDS_DATA = [
         name: "Bottega Veneta",
         client: ["Prada", "Chanel Fashion", "Richemont"],        // 所属客户
         owner: [STAFF.D, STAFF.B],      // 负责人
-        instagram: "hhttps://www.instagram.com/newbottega/",
+        instagram: "https://www.instagram.com/newbottega/",
         facebook: "https://www.facebook.com/bottegaveneta",
         tiktok: null,
         twitter: null,
@@ -527,8 +527,8 @@ const BRANDS_DATA = [
         twitter: "https://twitter.com/NETAPORTER",
         youtube: "https://www.youtube.com/@NET-A-PORTER",
         linkedin: "https://www.linkedin.com/company/net-a-porter/",
-        weibo: "https://weibo.com/u/2662330667",
-        Xiaohongshu: "https://www.xiaohongshu.com/user/profile/5dc247ae000000000100b3df"
+        weibo: null,
+        Xiaohongshu: null
     },
     {
         name: "Neiman Marcus",
@@ -838,7 +838,6 @@ const BRANDS_DATA = [
         owner: [STAFF.F],
         instagram: [
             { url: "https://www.instagram.com/maccosmetics", region: "Global", priority: true },
-            { url: "https://www.instagram.com/maccosmeticsusa/", region: "USA", priority: true },
             { url: "https://www.instagram.com/maccosmeticsbrasil/", region: "Brazil", priority: true },
             { url: "https://www.instagram.com/maccosmeticsturkiye/", region: "Turkey",priority: true },
             { url: "https://www.instagram.com/maccosmeticsafrica/", region: "Africa", priority: true },
@@ -1499,6 +1498,25 @@ const BRANDS_DATA = [
         weibo: "https://weibo.com/u/5284449501",
         Xiaohongshu: "https://www.xiaohongshu.com/user/profile/5ce36580000000001103c055"
     },
+    {
+        name: "Lacoste",
+        client: ["Lacoste"],
+        owner: [STAFF.D],
+        official_web: null,
+        instagram: "https://www.instagram.com/lining.official/",
+        facebook: null,
+        tiktok: "https://www.tiktok.com/@liningglobal",
+        twitter: null,
+        youtube: null,
+        linkedin: null,
+        weibo: [            
+            {url: "https://weibo.com/u/1716244511", Note: "Official", priority: "trure"},
+            {url: "https://weibo.com/u/5133232345", Note: "Lifestyle", priority: "false"},
+            ],
+        Xiaohongshu: [ 
+            {url: "https://www.xiaohongshu.com/user/profile/6162335f000000000201d3da?xsec_token=AB5_i4YauxsSV_LKBcBfbRQdk1HEERBHFa1nY9-NNfPcg%3D&xsec_source=pc_search", Note: "Official", priority: "trure"},
+            {url: "https://www.xiaohongshu.com/user/profile/5fe067b90000000001007f53?xsec_token=ABxQy81zpMmbklo8uptyDvRR-PQT5dR69ed3_gkjjqml8%3D&xsec_source=pc_search", Note: "China", priority: "trure"},
+            ]
     {
         name: "Charlotte Tilbury",
         client: ["LVMH"],
@@ -2441,7 +2459,7 @@ const BRANDS_DATA = [
         owner: [STAFF.D],
         official_web: null,
         instagram: [
-            { url: "https://www.instagram.com/newbalance/", Note: "Main" },
+            { url: "https://www.instagram.com/newbalance/", Note: "Main", priority :"true" },
             { url: "https://www.instagram.com/newbalancebaseball/", Note: "Baseball" },
             { url: "https://www.instagram.com/newbalancetennis/", Note: "Tennis" },
             { url: "https://www.instagram.com/newbalancefootball/", Note: "Football" },
