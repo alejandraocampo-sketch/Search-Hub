@@ -8,7 +8,7 @@ const STAFF = {
     D: "Danyu",
     E: "Adeline",
     F: "Jingyi",
-    G: "Kaiyu",
+    G: "Angela",
 };
 
 // 品牌数据
