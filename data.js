@@ -6,7 +6,7 @@ const STAFF = {
     B: "Alejandra",
     C: "Charlotte",
     D: "Danyu",
-    E: "Adeline",
+    E: "Yuzhu",
     F: "Jingyi",
     G: "Angela",
 };
